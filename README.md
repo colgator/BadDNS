@@ -84,6 +84,10 @@ BadDNS 是一款使用 Rust 开发的使用公共 DNS 服务器进行多层子�
      
     - 进入项目目录执行编译命令
     
+      - 安装musl-tools
+      
+        `sudo apt-get install -y musl-tools`
+    
       - 交叉编译
         
         `cargo build --target x86_64-unknown-linux-musl --release`
