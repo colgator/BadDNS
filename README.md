@@ -65,7 +65,7 @@ BadDNS 是一款使用 Rust 开发的使用公共 DNS 服务器进行多层子�
     - 安装Rust 
     
         `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-        $ source $HOME/.cargo/env
+        `$ source $HOME/.cargo/env`
     
     - 安装`Linux-x86_64`工具链
     
